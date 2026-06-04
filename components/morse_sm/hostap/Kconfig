@@ -5,11 +5,10 @@ config MBEDTLS
 	bool
 	default y
 
-config CUSTOM_MBEDTLS_CFG_FILE
-	default y
-
-config MBEDTLS_CFG_FILE
+config MBEDTLS_CONFIG_FILE
+	string
 	default "morse_mbedtls_config.h"
 
 config MBEDTLS_ZEPHYR_ENTROPY
+	bool
 	default y
