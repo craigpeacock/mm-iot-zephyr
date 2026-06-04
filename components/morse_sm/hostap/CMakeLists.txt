@@ -60,6 +60,7 @@ zephyr_include_directories(
   ${MMIOT_ROOT}/framework/src/hostap/src/utils
   ${MMIOT_ROOT}/framework/src/hostap/wpa_supplicant
   ${MMIOT_ROOT}/framework/src/hostap/src/crypto
+  ${MMIOT_ROOT}/framework/src/mbedtls/include/
 )
 
 set(BUILD_DEFINES
